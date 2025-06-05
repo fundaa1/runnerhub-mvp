@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -24,13 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${inter.variable}`}>
       <head>
         {/* The manifest link is typically added here if not using the metadata object */}
         {/* However, Next.js 13.2+ metadata object handles the manifest link automatically */}
         {/* No need for <link rel="manifest" href="/manifest.json" /> if using metadata.manifest */}
       </head>
-      <body className="antialiased">
+      <body className="font-sans antialiased">
         {children}
       </body>
     </html>
