@@ -25,7 +25,7 @@ async function getProducts(): Promise<Product[]> {
 }
 
 interface HomePageProps {
-  searchParams?: {
+  searchParams: {
     layout?: 'grid' | 'carousel';
     [key: string]: string | string[] | undefined;
   };
