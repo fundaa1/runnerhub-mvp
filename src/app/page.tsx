@@ -24,16 +24,18 @@ async function getProducts(): Promise<Product[]> {
   }
 }
 
-interface HomePageProps {
-  searchParams: {
-    layout?: 'grid' | 'carousel';
-    [key: string]: string | string[] | undefined;
-  };
-}
-
-export default async function HomePage({ searchParams }: HomePageProps) {
+export default async function HomePage({
+  searchParams,
+}: {
+  searchParams: { [key: string]: string | string[] | undefined };
+}) {
   const products = await getProducts();
-  const layoutMode = searchParams?.layout === 'carousel' ? 'carousel' : 'grid';
+  
+  let layoutMode: 'grid' | 'carousel' = 'grid'; // Default to grid
+  const layoutParam = searchParams?.layout;
+  if (layoutParam === 'carousel') {
+    layoutMode = 'carousel';
+  }
 
   return (
     <main>
