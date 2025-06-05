@@ -18,5 +18,5 @@ const nextConfig: NextConfig = {
   // reactStrictMode: true,
 };
 
-export default withPWA(nextConfig); // Re-enable PWA wrapping
-// export default nextConfig; // Comment out plain config
+// export default withPWA(nextConfig); // Temporarily disable PWA wrapping
+export default nextConfig; // Export plain config to test build without PWA
