@@ -1,0 +1,72 @@
+[
+  {
+    "id": "blk-denim-jacket",
+    "title": "Black Denim Jacket",
+    "price": "R350",
+    "image": "/images/denim-jacket-black.jpg",
+    "waMessage": "Black Denim Jacket R350"
+  },
+  {
+    "id": "5kg-beef-pack",
+    "title": "5kg Beef Pack",
+    "price": "R499",
+    "image": "/images/beef-pack-5kg.jpg",
+    "waMessage": "5kg Beef Pack R499"
+  },
+  {
+    "id": "running-shoes-pro",
+    "title": "Pro Running Shoes",
+    "price": "R1200",
+    "image": "/images/running-shoes-pro.jpg",
+    "waMessage": "Pro Running Shoes R1200"
+  },
+  {
+    "id": "sports-watch-gps",
+    "title": "GPS Sports Watch",
+    "price": "R2500",
+    "image": "/images/sports-watch-gps.jpg",
+    "waMessage": "GPS Sports Watch R2500"
+  },
+  {
+    "id": "hydration-pack-2l",
+    "title": "2L Hydration Pack",
+    "price": "R650",
+    "image": "/images/hydration-pack-2l.jpg",
+    "waMessage": "2L Hydration Pack R650"
+  },
+  {
+    "id": "performance-tshirt-men",
+    "title": "Men's Performance T-Shirt",
+    "price": "R280",
+    "image": "/images/performance-tshirt-men.jpg",
+    "waMessage": "Men's Performance T-Shirt R280"
+  },
+  {
+    "id": "running-shorts-women",
+    "title": "Women's Running Shorts",
+    "price": "R320",
+    "image": "/images/running-shorts-women.jpg",
+    "waMessage": "Women's Running Shorts R320"
+  },
+  {
+    "id": "yoga-mat-premium",
+    "title": "Premium Yoga Mat",
+    "price": "R450",
+    "image": "/images/yoga-mat-premium.jpg",
+    "waMessage": "Premium Yoga Mat R450"
+  },
+  {
+    "id": "wireless-earbuds-sport",
+    "title": "Sport Wireless Earbuds",
+    "price": "R900",
+    "image": "/images/wireless-earbuds-sport.jpg",
+    "waMessage": "Sport Wireless Earbuds R900"
+  },
+  {
+    "id": "protein-powder-1kg",
+    "title": "1kg Protein Powder",
+    "price": "R400",
+    "image": "/images/protein-powder-1kg.jpg",
+    "waMessage": "1kg Protein Powder R400"
+  }
+]
